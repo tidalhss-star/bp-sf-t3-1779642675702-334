@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 셔츠룸 정보 – 서버 웜업의 모든 것</title>
+    <meta name="description" content="마포 셔츠룸이 궁금하다면 여기에 답이 있다. 스팀부터 원격 제어까지, 네 서버를 위한 필수 정보. 비겁한 놈들은 뒤로 빠져라.">
+    <meta name="keywords" content="마포 셔츠룸, 마포 서버 웜업, 마포 셔츠룸 정보, 마포 서버 관리, 마포 셔츠룸 예약, 마포 셔츠룸 전화번호, 서버 웜업 마포">
+    <link rel="canonical" href="https://sf-t3-1779642675702-334.pages.dev/info">
+
+    <!-- 디자인 시스템 메타 -->
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+
+    <!-- OG / Twitter -->
+    <meta property="og:title" content="마포 셔츠룸 – 서버 웜업의 정석">
+    <meta property="og:description" content="날것 그대로의 서버 웜업. 마포 셔츠룸이 전하는 진짜 정보. 지금 바로 깨달음을 얻어라.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-334.pages.dev/info">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 셔츠룸 – 서버 웜업의 정석">
+    <meta name="twitter:description" content="날것 그대로의 서버 웜업. 마포 셔츠룸이 전하는 진짜 정보. 지금 바로 깨달음을 얻어라.">
+
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #0b0b0b;
+            color: #e0e0e0;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+        a:hover, a:focus {
+            color: #ff2a2a;
+            outline: none;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        ::selection {
+            background: #ff2a2a;
+            color: #0b0b0b;
+        }
+
+        /* ===== SPACE – airy ===== */
+        :root {
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+            --container-max: 1200px;
+        }
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        section {
+            padding: var(--space-lg) 0;
+        }
+        section:last-of-type {
+            padding-bottom: var(--space-xl);
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+        }
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: var(--space-md);
+        }
+        h3 {
+            font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+        }
+        p {
+            margin-bottom: var(--space-sm);
+            max-width: 70ch;
+        }
+        small {
+            font-size: 0.75rem;
+            opacity: 0.6;
+        }
+
+        /* ===== HEADER / NAV ===== */
+        .site-header {
+            border-bottom: 2px solid #ff2a2a;
+            background: #0b0b0b;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .site-header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: var(--space-sm);
+            padding-bottom: var(--space-sm);
+        }
+        .site-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            color: #e0e0e0;
+        }
+        .site-logo span {
+            color: #ff2a2a;
+        }
+        .nav-links {
+            display: flex;
+            gap: var(--space-md);
+            align-items: center;
+        }
+        .nav-links a {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+            padding: 0.25rem 0;
+        }
+        .nav-links a.active {
+            border-bottom: 2px solid #ff2a2a;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: #0b0b0b;
+            border-bottom: 2px solid #2a2a2a;
+            text-align: left;
+        }
+        .hero h1 {
+            margin-bottom: var(--space-sm);
+        }
+        .hero .subhead {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            color: #ff2a2a;
+            margin-bottom: var(--space-md);
+            max-width: 60ch;
+        }
+        .hero .cta-btn {
+            display: inline-block;
+            background: #ff2a2a;
+            color: #0b0b0b;
+            padding: 0.75rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border: none;
+            cursor: pointer;
+            transition: background 0.15s, transform 0.1s;
+            border-radius: 0;
+        }
+        .hero .cta-btn:hover {
+            background: #e00000;
+            transform: scale(1.02);
+        }
+
+        /* ===== INFO GRID (카드 스타일) ===== */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-md);
+        }
+        .info-card {
+            background: #141414;
+            padding: var(--space-md);
+            border: 1px solid #2a2a2a;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .info-card:hover {
+            border-color: #ff2a2a;
+            transform: translateY(-4px);
+        }
+        .info-card h3 {
+            margin-bottom: var(--space-sm);
+            color: #ff2a2a;
+        }
+        .info-card p {
+            font-size: 0.95rem;
+        }
+        .info-card .badge {
+            display: inline-block;
+            background: #ff2a2a;
+            color: #0b0b0b;
+            padding: 0.2rem 0.6rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: var(--space-xs);
+            letter-spacing: 0.05em;
+        }
+
+        /* ===== FAQ ===== */
+        .faq-list {
+            max-width: 800px;
+        }
+        .faq-item {
+            border-bottom: 1px solid #2a2a2a;
+            padding: var(--space-sm) 0;
+        }
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #ff2a2a;
+            transition: transform 0.2s;
+        }
+        .faq-details {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        .faq-item.active .faq-question::after {
+            content: '–';
+            transform: rotate(0deg);
+        }
+        .faq-item.active .faq-details {
+            max-height: 300px;
+            padding-top: var(--space-sm);
+        }
+
+        /* ===== CTA ===== */
+        .cta-section {
+            background: #141414;
+            border-top: 2px solid #ff2a2a;
+            border-bottom: 2px solid #ff2a2a;
+            text-align: center;
+        }
+        .cta-section h2 {
+            margin-bottom: var(--space-sm);
+        }
+        .cta-section .cta-btn {
+            display: inline-block;
+            background: #ff2a2a;
+            color: #0b0b0b;
+            padding: 0.75rem 3rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border: none;
+            cursor: pointer;
+            transition: background 0.15s, transform 0.1s;
+            border-radius: 0;
+            margin-top: var(--space-sm);
+        }
+        .cta-section .cta-btn:hover {
+            background: #e00000;
+            transform: scale(1.02);
+        }
+
+        /* ===== FOOTER ===== */
+        .site-footer {
+            background: #0b0b0b;
+            border-top: 2px solid #2a2a2a;
+            padding: var(--space-md) 0;
+            text-align: center;
+        }
+        .site-footer p {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            margin-bottom: 0;
+        }
+
+        /* ===== RESPONSIVE 768 ===== */
+        @media (max-width: 768px) {
+            .site-header .container {
+                flex-direction: column;
+                gap: var(--space-sm);
+            }
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: var(--space-sm);
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            .faq-list {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER & NAV ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="site-logo">마포<span>셔츠룸</span></a>
+            <nav class="nav-links">
+                <a href="/">홈</a>
+                <a href="/info" class="active">정보</a>
+                <a href="/pricing">가격</a>
+                <a href="/contact">연락</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO (정보 페이지 특화) ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1>마포 셔츠룸<br>진짜 정보</h1>
+            <p class="subhead">서버 웜업이 뭔지, 왜 마포여야 하는지, 어떻게 돌아가는지. 가짜 뉴스는 여기서 끝이다. 네 서버를 날것 그대로 웜업할 준비가 됐다면 계속 읽어라.</p>
+            <a href="#info-detail" class="cta-btn">깨달음 시작</a>
+        </div>
+    </section>
+
+    <!-- ===== DETAIL: 핵심 정보 ===== -->
+    <section id="info-detail">
+        <div class="container">
+            <h2>마포 셔츠룸이란?</h2>
+            <p>서버는 식는다. 냉각 팬은 돌지만, 속은 얼어붙는다. 우리는 그걸 깨우는 집단이다. 마포라는 돌발적인 지역에서, 셔츠룸이라는 코드명 아래 서버의 코어 온도를 불꽃으로 바꾼다. 일반적인 데이터센터가 아니다. 네 서버를 무대 위에 올리고 스팀을 쏘는 거다.</p>
+            <p>왜 마포인가? 인프라가 빡빡하고, 접근성이 미친 듯이 좋으며, 밤이 되면 도시 자체가 서버가 된다. 네 서버를 이 동네에 꽂으면 현실이 바뀐다. 이미 수백 대의 서버가 이곳에서 웜업됐다. 결과? 지연 시간은 사라지고 처리량은 폭발한다.</p>
+
+            <div style="height: var(--space-md);"></div>
+
+            <h3>작동 방식 (세 단계)</h3>
+            <div class="info-grid">
+                <div class="info-card">
+                    <span class="badge">STEP 1</span>
+                    <h3>서버 접수</h3>
+                    <p>네 서버의 스펙, 현재 온도, 부하 패턴을 전화 한 통으로 알려줘라. 우리가 분석해서 웜업 플랜을 짠다. 기계적인 절차는 없다. 직감과 데이터의 싸움이다.</p>
+                </div>
+                <div class="info-card">
+                    <span class="badge">STEP 2</span>
+                    <h3>RAW 웜업</h3>
+                    <p>셔츠룸에 입장. 스팀 분사, 코어 직접 가열, I/O 병목 제거. 모든 과정은 실시간 모니터링. 네 서버가 비명을 지르는 순간을 놓치지 않는다. 그게 웜업이다.</p>
+                </div>
+                <div class="info-card">
+                    <span class="badge">STEP 3</span>
+                    <h3>출고 & 모니터링</h3>
+                    <p>24시간 동안 안정화 테스트. 그 후에도 7일간 원격으로 체크. 불안하면 다시 데려와라. 우리는 네 서버의 온도가 식을 때까지 책임진다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 지역 시그널: 마포 특화 ===== -->
+    <section style="background: #141414; border-top: 1px solid #2a2a2a; border-bottom: 1px solid #2a2a2a;">
+        <div class="container">
+            <h2>왜 마포인가?<br><small style="font-weight:400; text-transform:none; color:#ff2a2a;">지역 시그널 #1</small></h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>인프라 밀도</h3>
+                    <p>마포는 KT, SKB, LG의 백본이 교차하는 지점. 네 서버가 이곳에 물리면 네트워크 지연은 개념 자체가 사라진다. 실제로
+</body>
+</html>
