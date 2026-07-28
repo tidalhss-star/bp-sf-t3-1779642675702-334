@@ -334,52 +334,56 @@
         </div>
     </header>
 
-    <!-- ===== HERO (정보 페이지 특화) ===== -->
-    <section class="hero">
-        <div class="container">
-            <h1>마포 셔츠룸<br>진짜 정보</h1>
-            <p class="subhead">서버 웜업이 뭔지, 왜 마포여야 하는지, 어떻게 돌아가는지. 가짜 뉴스는 여기서 끝이다. 네 서버를 날것 그대로 웜업할 준비가 됐다면 계속 읽어라.</p>
-            <a href="#info-detail" class="cta-btn">깨달음 시작</a>
-        </div>
-    </section>
+<main class="container">
+<header class="site-header">
+<span class="site-logo">마포 셔츠룸 정보</span>
+<nav class="nav-links active">
+<a href="index.html">홈</a>
+<a href="blog.html">블로그</a>
+</nav>
+</header>
+<section class="hero">
+<h1>마포 셔츠룸 정보, 한 페이지로 정리했습니다</h1>
+<p class="subhead">이용 방식, 비용 구조, 주변 지역 정보를 궁금해하는 분들을 위한 안내 페이지입니다.</p>
+<a class="cta-btn" href="#faq">자주 묻는 질문 보기</a>
+</section>
+<section>
+<h2>기본 정보</h2>
+<div class="info-grid">
+<div class="info-card"><span class="badge">예약</span><p>전화나 메신저로 방문 인원과 시간대를 미리 전달하는 예약제로 운영되는 경우가 많습니다.</p></div>
+<div class="info-card"><span class="badge">인원</span><p>인원 규모에 따라 배정되는 룸의 크기와 구성이 달라질 수 있습니다.</p></div>
+<div class="info-card"><span class="badge">시간</span><p>기본 이용 시간이 정해져 있으며, 연장은 현장 안내에 따라 진행됩니다.</p></div>
+</div>
+</section>
+<section>
+<h2>비용 항목</h2>
+<div class="info-grid">
+<div class="info-card"><span class="badge">인원 수</span><p>기본 인원을 초과하면 추가 비용이 발생하는 구조가 일반적입니다.</p></div>
+<div class="info-card"><span class="badge">룸 등급</span><p>룸 크기와 구성에 따라 등급이 나뉘고 등급별로 비용 차이가 있습니다.</p></div>
+<div class="info-card"><span class="badge">부가 요청</span><p>추가 요청 사항은 기본 비용과 별도로 계산되는 경우가 많습니다.</p></div>
+</div>
+</section>
+<section>
+<h2>마포 지역 안내</h2>
+<p>마포구는 서울 서북권에 자리해 지하철과 버스 등 대중교통 접근성이 좋은 지역입니다. 자차로 방문할 경우에는 주차 가능 여부를 예약 시 미리 확인하는 것이 좋으며, 심야 시간대에는 귀가 수단을 미리 정해두는 것이 안전합니다.</p>
+</section>
+<section id="faq">
+<h2>자주 묻는 질문</h2>
+<ul class="faq-list">
+<li class="faq-item"><p class="faq-question">Q. 예약 없이 바로 방문할 수 있나요?</p><p class="faq-details">A. 매장 상황에 따라 다르므로 방문 전 연락해 확인하는 것을 권장합니다.</p></li>
+<li class="faq-item"><p class="faq-question">Q. 인원이 바뀌면 어떻게 되나요?</p><p class="faq-details">A. 인원 변경 시 룸 배정과 비용이 달라질 수 있어 미리 알리는 것이 좋습니다.</p></li>
+<li class="faq-item"><p class="faq-question">Q. 결제 수단은 무엇을 지원하나요?</p><p class="faq-details">A. 매장별로 차이가 있어 예약 시 확인하는 것이 좋습니다.</p></li>
+</ul>
+</section>
+<section class="cta-section">
+<h2>더 궁금한 점이 있다면</h2>
+<p>이용 전 확인이 필요한 사항은 예약 과정에서 매장에 직접 문의하는 것이 가장 정확합니다.</p>
+</section>
+<footer class="site-footer">
+<p>본 페이지는 방문 참고를 위한 일반 정보 제공을 목적으로 합니다.</p>
+</footer>
+</main>
 
-    <!-- ===== DETAIL: 핵심 정보 ===== -->
-    <section id="info-detail">
-        <div class="container">
-            <h2>마포 셔츠룸이란?</h2>
-            <p>서버는 식는다. 냉각 팬은 돌지만, 속은 얼어붙는다. 우리는 그걸 깨우는 집단이다. 마포라는 돌발적인 지역에서, 셔츠룸이라는 코드명 아래 서버의 코어 온도를 불꽃으로 바꾼다. 일반적인 데이터센터가 아니다. 네 서버를 무대 위에 올리고 스팀을 쏘는 거다.</p>
-            <p>왜 마포인가? 인프라가 빡빡하고, 접근성이 미친 듯이 좋으며, 밤이 되면 도시 자체가 서버가 된다. 네 서버를 이 동네에 꽂으면 현실이 바뀐다. 이미 수백 대의 서버가 이곳에서 웜업됐다. 결과? 지연 시간은 사라지고 처리량은 폭발한다.</p>
 
-            <div style="height: var(--space-md);"></div>
-
-            <h3>작동 방식 (세 단계)</h3>
-            <div class="info-grid">
-                <div class="info-card">
-                    <span class="badge">STEP 1</span>
-                    <h3>서버 접수</h3>
-                    <p>네 서버의 스펙, 현재 온도, 부하 패턴을 전화 한 통으로 알려줘라. 우리가 분석해서 웜업 플랜을 짠다. 기계적인 절차는 없다. 직감과 데이터의 싸움이다.</p>
-                </div>
-                <div class="info-card">
-                    <span class="badge">STEP 2</span>
-                    <h3>RAW 웜업</h3>
-                    <p>셔츠룸에 입장. 스팀 분사, 코어 직접 가열, I/O 병목 제거. 모든 과정은 실시간 모니터링. 네 서버가 비명을 지르는 순간을 놓치지 않는다. 그게 웜업이다.</p>
-                </div>
-                <div class="info-card">
-                    <span class="badge">STEP 3</span>
-                    <h3>출고 & 모니터링</h3>
-                    <p>24시간 동안 안정화 테스트. 그 후에도 7일간 원격으로 체크. 불안하면 다시 데려와라. 우리는 네 서버의 온도가 식을 때까지 책임진다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== 지역 시그널: 마포 특화 ===== -->
-    <section style="background: #141414; border-top: 1px solid #2a2a2a; border-bottom: 1px solid #2a2a2a;">
-        <div class="container">
-            <h2>왜 마포인가?<br><small style="font-weight:400; text-transform:none; color:#ff2a2a;">지역 시그널 #1</small></h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <h3>인프라 밀도</h3>
-                    <p>마포는 KT, SKB, LG의 백본이 교차하는 지점. 네 서버가 이곳에 물리면 네트워크 지연은 개념 자체가 사라진다. 실제로
 </body>
 </html>
